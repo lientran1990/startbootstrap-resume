@@ -27,7 +27,7 @@ html(lang='en')
         // Navigation
         nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
             a.navbar-brand.js-scroll-trigger(href='#page-top')
-                span.d-block.d-lg-none Clarence Taylor
+                span.d-block.d-lg-none Lien Tran
                 span.d-none.d-lg-block
                     img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
             button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
@@ -37,15 +37,14 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#about') About
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#experience') Experience
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#education') Education
+                        a.nav-link.js-scroll-trigger(href='#education') Education                                        
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#awards') Awards
+                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                   
 
         // Page Content
         .container-fluid.p-0
@@ -57,19 +56,119 @@ html(lang='en')
                         | Lien 
                         span.text-primary Tran
                     .subheading.mb-5
-                        | 3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 · 
-                        a(href='mailto:name@email.com') name@email.com
+                        | FPT Plaza1 · DaNang · (84) 3899-37574 · 
+                        a(href='mailto:name@email.com') tranthilien.m@gmail.com
                     p.lead.mb-5
-                        | I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                        | I aspire to become a talented and professional Front-End-Developer in the next 3 years. With the knowledge I have learned and the experience I hope to be able to handle the work well.
                     .social-icons
-                        a.social-icon(href='#!')
+                        a.social-icon(href='https://www.linkedin.com/in/lien-tran-73315874', target='blank')
                             i.fab.fa-linkedin-in
-                        a.social-icon(href='#!')
+                        a.social-icon(href='https://github.com/lientran1990', target='blank')
                             i.fab.fa-github
-                        a.social-icon(href='#!')
-                            i.fab.fa-twitter
-                        a.social-icon(href='#!')
+                        //- a.social-icon(href='#!')
+                        //-     i.fab.fa-twitter
+                        a.social-icon(href='https://www.facebook.com/lien.tranthi.3', target='blank')
                             i.fab.fa-facebook-f
+
+            hr.m-0
+
+        
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1.mb-3
+                            h3.mb-0 Coursera
+                            .subheading Meta Front-End Developer Certificat Professionnel 
+                            i.fas.fa-check.text-primary
+                            a.m-2(href="https://coursera.org/share/38e83f229eccae818e27f718894cf731", target="_blank") Introduction to Front-End Development
+                            br
+                            
+                            i.fas.fa-check.text-primary
+                            a.m-2(href="https://coursera.org/share/3c5ae6da0ec9ea38a6ca169fe993e314", target="_blank") Programming with JavaScript
+                            br
+                            
+                            i.fas.fa-check.text-primary
+                            a.m-2(href="https://coursera.org/share/c30798ae386ed5f6569e72d0fea71b5f", target="_blank") Version Control
+                            br
+
+                            i.fas.fa-check.text-primary
+                            a.m-2(href="https://coursera.org/share/a72c803a6670f38afde984cc0b5913c8", target="_blank") HTML and CSS in depth
+                            
+                                                                                 
+                        .flex-shrink-0
+                            span.text-primary July 2023 - October 2023
+
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1.mb-3
+                            h3.mb-0 FUNIX
+                            .subheading Software Tester Specialization
+                            i.fas.fa-check.text-primary
+                            a.m-2(href="https://drive.google.com/file/d/1skI3cpGEaWgAgeEhc4ZmlFpyY7tYVkQt/view", target="_blank") Tester Software
+                        
+                        .flex-shrink-0
+                            span.text-primary September 2022 - June 2023  
+                            
+                    
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Da Nang University of Economics
+                            .subheading.mb-3 Accounting
+                        
+                        .flex-shrink-0
+                            span.text-primary September 2009 - June 2013              
+
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Tools
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fab.fa-html5
+                        li.list-inline-item
+                            i.fab.fa-css3-alt
+                        li.list-inline-item
+                            i.fab.fa-js-square
+                        li.list-inline-item
+                            i.fab.fa-react
+                        li.list-inline-item
+                            i.fab.fa-java
+                        li.list-inline-item
+                            i.fab.fa-github
+
+                    .subheading.mb-3 Workflow
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Responsive Design
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Git Flow
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Cross Browser Testing & Debugging
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Automation Testing (Selenium)
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Cross Functional Teams
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Agile Development & Scrum
 
             hr.m-0
 
@@ -116,81 +215,6 @@ html(lang='en')
 
             hr.m-0
 
-            // Education
-            section#education.resume-section
-                .resume-section-content
-                    h2.mb-5 Education
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 University of Colorado Boulder
-                            .subheading.mb-3 Bachelor of Science
-                            div Computer Science - Web Development Track
-                            p GPA: 3.23
-                        .flex-shrink-0
-                            span.text-primary August 2006 - May 2010
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 James Buchanan High School
-                            .subheading.mb-3 Technology Magnet Program
-                            p GPA: 3.56
-                        .flex-shrink-0
-                            span.text-primary August 2002 - May 2006
-
-            hr.m-0
-
-            // Skills
-            section#skills.resume-section
-                .resume-section-content
-                    h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
-                    ul.list-inline.dev-icons
-                        li.list-inline-item
-                            i.fab.fa-html5
-                        li.list-inline-item
-                            i.fab.fa-css3-alt
-                        li.list-inline-item
-                            i.fab.fa-js-square
-                        li.list-inline-item
-                            i.fab.fa-angular
-                        li.list-inline-item
-                            i.fab.fa-react
-                        li.list-inline-item
-                            i.fab.fa-node-js
-                        li.list-inline-item
-                            i.fab.fa-sass
-                        li.list-inline-item
-                            i.fab.fa-less
-                        li.list-inline-item
-                            i.fab.fa-wordpress
-                        li.list-inline-item
-                            i.fab.fa-gulp
-                        li.list-inline-item
-                            i.fab.fa-grunt
-                        li.list-inline-item
-                            i.fab.fa-npm
-                    .subheading.mb-3 Workflow
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Mobile-First, Responsive Design
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Browser Testing & Debugging
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Functional Teams
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Agile Development & Scrum
-
-            hr.m-0
-
             // Interests
             section#interests.resume-section
                 .resume-section-content
@@ -202,50 +226,7 @@ html(lang='en')
 
             hr.m-0
 
-            // Awards
-            section#awards.resume-section
-                .resume-section-content
-                    h2.mb-5 Awards & Certifications
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Google Analytics Certified Developer
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Mobile Web Specialist - Google Certification
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 2
-                            sup nd 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - James Buchanan High School - Hackathon 2006
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 3
-                            sup rd 
-                            | Place - James Buchanan High School - Hackathon 2005
-
+           
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
 
